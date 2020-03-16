@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <group android:checkableBehavior="single" >
+      <item android:title="@string/Security">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_audit"
+            android:icon="@drawable/ic_audit"
+            android:title="Audit Privacy" />
+        <item
+            android:id="@+id/nav_scanner"
+            android:icon="@drawable/scan"
+            android:title="Whitelist Apps" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/apps"
+            android:title="Your Apps" />
+      </item>
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_info"
+                android:title= "About App" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
